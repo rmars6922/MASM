@@ -1,0 +1,28 @@
+{
+    "modelJSON": "ibis.json",
+    "sampling":
+    {
+        "method": "GLP",
+        "config":
+        {
+            "sampleSize": 126,
+            "maxiter": 5
+        }
+    },
+    "optimization": 
+    {
+        "method": "ASMO-PODE",
+        "config":
+        {
+            "niter": 200,
+            "nhist": 5,
+            "nchain": 4,
+            "nmax": 10000,
+            "resolution": 1e-4
+        }
+    },
+    "surrogate":
+    {
+        "method": "GPR"
+    }
+}
